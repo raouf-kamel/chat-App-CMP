@@ -1,0 +1,7 @@
+TEAM_ID=
+
+PRODUCT_NAME=Chat App
+PRODUCT_BUNDLE_IDENTIFIER=com.raouf_developer.chatappwithwebssocketcmp.ChatApp$(TEAM_ID)
+
+CURRENT_PROJECT_VERSION=1
+MARKETING_VERSION=1.0
