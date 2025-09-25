@@ -6,6 +6,8 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
+    alias(libs.plugins.kotlinx.serialization)
+
 }
 
 kotlin {
@@ -31,6 +33,8 @@ kotlin {
             implementation(libs.androidx.activity.compose)
 
             implementation(libs.ktor.client.android)
+            implementation(libs.ktor.client.okhttp)
+
 
         }
         commonMain.dependencies {
@@ -43,9 +47,17 @@ kotlin {
             implementation(libs.androidx.lifecycle.viewmodelCompose)
             implementation(libs.androidx.lifecycle.runtimeCompose)
 
+            implementation(libs.kotlinx.serialization.json)
 
 
+            implementation(libs.bundles.ktor)
+            //data time
+            implementation(libs.kotlinx.datetime)
+            // Koin
+            implementation(libs.bundles.koin.compose)
 
+         //   implementation(libs.material.icons.extended)
+            implementation("org.jetbrains.compose.material:material-icons-extended:1.7.3")
         }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)
