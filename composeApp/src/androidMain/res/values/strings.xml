@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Chat App</string>
+
+    <string name="chat_app_title">Chat App</string>
+    <string name="chat_app_description">This is a chat test application using WebSockets with a Spring Boot server.</string>
+    <string name="server_ip_address">Server IP Address</string>
+    <string name="your_username">Your Username</string>
+    <string name="connect">Connect</string>
+    <string name="connecting">Connecting...</string>
+    <string name="chat_room">Chat Room</string>
+    <string name="messages_count">%1$d messages</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="no_messages_yet">No messages yet</string>
+    <string name="send_message_to_start">Send a message to start the conversation!</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="attach">Attach</string>
+    <string name="send">Send</string>
+    <string name="voice_message">Voice message</string>
+    <string name="read">Read</string>
+    <string name="dismiss">Dismiss</string>
 </resources>
