@@ -95,7 +95,7 @@ fun ChatScreen(
     modifier: Modifier = Modifier,
     viewModel: ChatViewModel = koinViewModel<ChatViewModel>(),
 ) {
-    var serverAddress by remember { mutableStateOf("192.168.1.101") }
+    var serverAddress by remember { mutableStateOf("10.0.2.2") }
     var username by remember { mutableStateOf("") }
     var messageText by remember { mutableStateOf("") }
     val connectionStatus by viewModel.connectionStatus.collectAsState()

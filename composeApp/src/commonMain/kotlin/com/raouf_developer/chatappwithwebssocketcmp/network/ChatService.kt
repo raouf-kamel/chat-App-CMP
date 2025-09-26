@@ -25,7 +25,7 @@ class ChatService(
         try {
             httpClient.webSocket(
                 host = serverAddress,
-                port = 8080,
+                port = 8081,
                 path = "/ws"
             ) {
                 session = this
